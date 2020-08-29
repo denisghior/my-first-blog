@@ -8,7 +8,9 @@
                 {{ post.published_date }}
             </div>
             <p>{{ linebreaksbr }}</p>
-            <p>{{ post.text|linebreaksbr }}</p>
+            <div class="text">
+                <p>{{ post.text|linebreaksbr }}</p>
+            </div>
         </div>
     {% endfor %}
 {% endblock %}

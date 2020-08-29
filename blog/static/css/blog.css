@@ -27,6 +27,15 @@ h1, h2, h3, h4 {
     float: right;
 }
 
+.btn, .save {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
 .post-form textarea, .post-form input {
     width: 100%;
 }
@@ -48,6 +57,18 @@ h1, h2, h3, h4 {
 .post h2, .post h2 a, .post h2 a:visited, .post h2 a:active {
     color: #000000;
     font-family: 'Roboto Slab', serif;
+}
+
+.text { /*two lines*/
+    overflow: hidden;
+    position: relative;
+    line-height: 22px;
+    /* height must be a multiple of line-height for how many rows you want to show (height = line-height x rows) */
+    height: 110px;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
 }
 
 .socials {
