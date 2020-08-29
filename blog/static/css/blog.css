@@ -1,11 +1,11 @@
 .page-header {
-    background-color: #C25100;
+    background-color: #ffffff;
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 20px 20px 20px 50px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #000000;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -15,11 +15,12 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', cursive;
 }
 
 .date {
     color: #828282;
+    font-size: 8pt;
 }
 
 .save {
@@ -31,16 +32,32 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: #000000;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 .post {
     margin-bottom: 70px;
+    font-size: 12pt;
+    font-family: 'Abhaya Libre', sans-serif;
 }
 
-.post h2 a, .post h2 a:visited {
+.post h2, .post h2 a, .post h2 a:visited, .post h2 a:active {
     color: #000000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.page-bottom {
+    background-color: #ffffff;
+    margin-top: 0;
+    padding: 0px 20px 0px 59px;
+}
+
+.page-bottom h1, .page-bottom h1 b, .page-bottom h1 b:visited, .page-bottom h1 b:active {
+    color: #828282;
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 8pt;
 }
